@@ -1,21 +1,7 @@
-body {font-family: Arial, Helvetica, sans-serif;
-}
+
 * {box-sizing: border-box;
 }
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
 
 .cancelbtn {
   background-color: #a180dc;
@@ -26,7 +12,7 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #b22222;
 }
 
-.cancelbtn, .signupbtn {
+.cancelbtn{
   
   padding: 7px 10px 10px 10px;
 }
@@ -64,10 +50,6 @@ input[type=text]:focus, input[type=password]:focus {
   border: 10px green;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
  
 .close {
   position: absolute;
@@ -90,13 +72,6 @@ hr {
   display: table;
 }
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
-}
-
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
 body{
 	font-size: 25px;
@@ -106,20 +81,14 @@ body{
   text-align: center;
   background-color: #f8f6f0;
   display: inline-block;
+	margin:0;
 
 }
 .cancelbtn{
 	margin-left: 300px;
 	
 }
-h1{
-  font-weight: 300;
-  margin: 0px;
-  padding: 10px;
-  font-size: 25px;
-  background-color: #444;
-  color: #fff;
-}
+
 .question{
   font-size: 20px;
   margin-bottom: 10px;
@@ -140,9 +109,6 @@ html {
   height:100%;
 }
 
-body {
-  margin:0;
-}
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
@@ -177,9 +143,7 @@ body {
   transform:translate(-50%, -50%);
 }
 
-h1 {
-  font-family:monospace;
-}
+
 
 @keyframes slide {
   0% {
